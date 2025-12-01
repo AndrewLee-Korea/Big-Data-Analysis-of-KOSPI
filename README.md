@@ -65,7 +65,7 @@ Source CSV: `project_data2.csv`
 
 ## 🛠 Requirements
 
-```python
+```
 pandas>=0.23.0
 matplotlib>=2.2.0
 numpy>=1.14.0
@@ -95,7 +95,7 @@ tensorflow>=1.8.0,<2.0.0
 
 ---
 
-## 📌 Data sources
+## 📌 Data Sources
 
 - [KRX Market Data](http://marketdata.krx.co.kr/)
 - [KOFIA Statistical Data](https://freesis.kofia.or.kr)
