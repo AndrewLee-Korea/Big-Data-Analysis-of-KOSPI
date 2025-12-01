@@ -1,4 +1,4 @@
-# 📈 Big-Data-Analysis-of-KOSPI
+# 📈 Correlation Analysis: Credit Balance Indicators and KOSPI Index
 
 This project investigates the relationship between margin trading activity and stock market performance in the Korean capital market. Using daily data from 2008 to 2018, I apply regression analysis and machine learning techniques to quantify how credit balance indicators correlate with and potentially predict KOSPI index movements.
 
