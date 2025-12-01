@@ -95,14 +95,7 @@ tensorflow (v1.x)
 ## 📌 References
 
 - [KRX Market Data](http://marketdata.krx.co.kr/)
-- [KOFIA Disclosure](http://dis.kofia.or.kr/)
-
----
-
-## 🧩 Future Work
-
-- Apply framework to other indices (e.g., KOSDAQ, S&P500)
-- Extend to nonlinear models (e.g., Random Forest, XGBoost)
+- [KOFIA Statistical Data](https://freesis.kofia.or.kr)
 
 ---
 
