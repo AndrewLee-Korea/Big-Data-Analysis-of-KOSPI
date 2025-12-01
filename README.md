@@ -86,6 +86,13 @@ tensorflow>=1.8.0,<2.0.0
 
 ---
 
+## 🧩 Future Work
+
+- Apply framework to other indices (e.g., KOSDAQ)
+- Extend to deep learning models for time series forecasting (e.g., LSTM)
+
+---
+
 ## 🧠 Contributor
 
 - **Yongjun Lee** (Korea Securities Finance Corporation)  
