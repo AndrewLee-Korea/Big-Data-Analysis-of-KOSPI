@@ -11,7 +11,7 @@ This project addresses a key research question: To what extent do credit balance
 
 ---
 
-## Key Findings
+## 📊 Key Findings
 
 | Model | R² (Test) | RMSE |
 |-------|-----------|------|
@@ -19,6 +19,10 @@ This project addresses a key research question: To what extent do credit balance
 | Simple Linear Regression (lending) | 0.68 | 162.8 |
 | **Multiple Linear Regression (lending + credit_long)** | **0.80** | **126.8** |
 | TensorFlow Gradient Descent | ~0.80 | ~127 |
+
+- `credit_long` and `lending` have strong positive correlation with the KOSPI index (R² > 0.8)
+- With multiple regression, test R² ≈ **0.80**, RMSE ≈ **126.8**
+- Size of margin trading activities indicates strong investor sentiment, reflected in index movements
 
 ---
 
@@ -59,32 +63,15 @@ Source CSV: `project_data2.csv`
 
 ---
 
-## 📊 Key Findings
-
-- `credit_long` and `lending` have strong positive correlation with the KOSPI index (R² > 0.8)
-- With multiple regression, test R² ≈ **0.80**, RMSE ≈ **126.8**
-- Size of margin trading activities indicates strong investor sentiment, reflected in index movements
-
----
-
-## 🛠 Libraries Used
+## 🛠 Requirements
 
 ```python
-pandas
-matplotlib
-numpy
-scikit-learn
-tensorflow (v1.x)
-```
-
----
-
-## 🛠 Requirements
 pandas>=0.23.0
-numpy>=1.14.0
 matplotlib>=2.2.0
+numpy>=1.14.0
 scikit-learn>=0.19.0
 tensorflow>=1.8.0,<2.0.0
+```
 
 ---
 
